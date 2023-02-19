@@ -38,6 +38,7 @@ print("")
 print(Fore.GREEN +	"	Welcome to PyGPT CLI!")
 print(Fore.RED + 	"	Creator: Spectrasonic")
 print(Fore.YELLOW + "	Version: 1.0")
+print(Fore.GREEN + "	Source Code: https://github.com/spectrasonic117/pygpt")
 print("")
 print(Fore.GREEN + "Type \"Q\" to Exit")
 

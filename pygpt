@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+EXEC_PATH="/opt/openai"
+exec $EXEC_PATH/PyGPT.py
+
+# For futire update with andorid
+# SYSTEM=$(uname -o)
+
+# if [ $SYSTEM == "Android" ]; then
+#   EXEC_PATH="/data/data/com.termux/files/usr/opt/openai"
+# else
+#   EXEC_PATH="/opt/PyGPT"
+# fi
+

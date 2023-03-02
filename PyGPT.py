@@ -5,6 +5,8 @@ import emoji                                    # pip3 install emoji
 import configparser
 from xdg.BaseDirectory import xdg_config_home   # pip3 install pyxdg
 from colorama import Fore, Style				# pip3 install colorama
+
+print(Fore.RED + 'Hello World!')
 from time import sleep
 
 user_config = xdg_config_home
@@ -59,3 +61,4 @@ while True:
 
 	response = completion.choices[0].text
 	print(Fore.GREEN + "🤖 ChatGPT:" +  Style.RESET_ALL + response)
+    

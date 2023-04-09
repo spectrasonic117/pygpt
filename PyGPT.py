@@ -1,12 +1,8 @@
-#!/usr/bin/env python3.11
-
 import openai                                 	# pip3 install openai - Works over Python +3.11.x
-import emoji                                    # pip3 install emoji
+# import emoji                                  # pip3 install emoji
 import configparser
 from xdg.BaseDirectory import xdg_config_home   # pip3 install pyxdg
 from colorama import Fore, Style				# pip3 install colorama
-
-print(Fore.RED + 'Hello World!')
 from time import sleep
 
 user_config = xdg_config_home
@@ -30,11 +26,6 @@ except:
     
 openai.api_key = api_token
 
-# print("""
-# 	Welcome to PyGPT CLI!
-# 	Creator: Spectrasonic
-# 	Version: 1.0
-#       """)
 
 print("")
 print(Fore.GREEN +	"	Welcome to PyGPT CLI!")

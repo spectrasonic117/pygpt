@@ -2,24 +2,21 @@
 
 # Preview
 
-![Terminal](./.assets/term-print.png)
-
-<!-- # Features
-
--   Remember messages
--   Interactive chat
--   Syntactic highlighting (basic) -->
+![terminal screenshot](./.assets/term-print.png)
 
 # Installation
 
-In Linux OS / macOS:
+**In Linux:**
 
 Needs:
 
--   **Python 3.11.x**
--   python-openai
--   python-pygments
--   python-colorama
+-   **Python 3.x**
+
+Python libs needed:
+
+-   openai
+-   pyxdg
+-   colorama
 
 and run in the project dir:
 
@@ -27,31 +24,50 @@ and run in the project dir:
 sudo make install
 ```
 
-# Run chat
+> When you run the installer, the necessary python libraries will be installed automatically.
+
+> In case it doesn't install automatically, use: `python3 -m pip install -r ./requirements.txt` to install the libraries
+
+> it might work on macOS
+
+## Run chat
 
 use `pygpt` command for open chat
 
-# OpenAI Token
+## OpenAI Token
 
-You need [OpenAI token](https://platform.openai.com/docs/introduction/tokens) for works
+**IMPORTANT!**
+
+You need [**OpenAI token**](https://platform.openai.com/docs/introduction/tokens) for the program works
 
 Add your token by editing `~/.config/openai_client.conf`
-If the file does not exist, the first time you run the program will be created.
 
-**example**
+> If the file does not exist, the first time you run the program will be create the file.
+
+**Example**
 
 ```bash
 [openai]
 token = YOU_TOKEN_HERE
 ```
 
-# Contribute
+## Contribute
 
--   You can help by sending changes and improvements to the repository
--   Share
--   Leave your star :3
+-   You can help by sending changes and improvements to the repository by issues
+-   Share the repo
+-   Leave your star :)
 
 Thank you for using!
+
+---
+
+## Future Features - TO DO -
+
+-   Remember messages
+-   Interactive chat
+-   Syntactic highlighting
+
+---
 
 <br>
 
